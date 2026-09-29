@@ -8,6 +8,7 @@ ArXiv preprint link: https://arxiv.org/abs/2506.14318 <br>
 
 학습 데이터세트는 MRI 영상, 마스크 영상이 쌍으로 존재하며 각각 1311장으로 구성되어있습니다.<br>
 테스트 데이터세트는 MRI 영상만으로 존재하며 266장으로 구성되어있습니다. <br>
+
 files
 * train/images - 학습 데이터세트(MRI 영상)
 * train/masks - 학습 데이터세트(마스크 영상)

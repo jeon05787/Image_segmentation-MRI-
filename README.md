@@ -75,15 +75,6 @@
 
 ---
 
-### 개선 모델 아키텍처 구조도
-INPUT          ENCODER (ResNet50V2)              BOTTLENECK       DECODER + CBAM          OUTPUT
-Image    →   E1(64ch/256²)                                    D3(64ch/256²)    →    Mask
-256×256×3    E2(128ch/128²)   →   Bottleneck   →   D2(128ch/128²)                 256×256×1
-E3(256ch/64²)        (512ch/32²)       D1(256ch/64²)
-↓                                      ↑  ↑  ↑
-Skip-Connection  ─────────────────────────────────
-CBAM  CBAM  CBAM
----
 
 ## 3. 학습 전략 및 하이퍼파라미터
 

@@ -2,10 +2,11 @@
 
 ---
 ## Dataset Description
-데이터 세트는 BRISC 2025: Brain Tumor MRI Dataset for Segmentation and Classification에서 제공된 데이터 세트입니다. ArXiv preprint link: https://arxiv.org/abs/2506.14318
-해당 데이터 세트는 인간 머리 MRI 이미지이며, 총 1577개의 이미지가 훈련, 테스트 세트로 나뉩니다.
+데이터 세트는 BRISC 2025: Brain Tumor MRI Dataset for Segmentation and Classification에서 제공된 데이터 세트입니다. <br>
+ArXiv preprint link: https://arxiv.org/abs/2506.14318 <br>
+해당 데이터 세트는 인간 머리 MRI 이미지이며, 총 1577개의 이미지가 훈련, 테스트 세트로 나뉩니다. <br>
 
-학습 데이터세트는 MRI 영상, 마스크 영상이 쌍으로 존재하며 각각 1311장으로 구성되어있습니다.
+학습 데이터세트는 MRI 영상, 마스크 영상이 쌍으로 존재하며 각각 1311장으로 구성되어있습니다.<br>
 테스트 데이터세트는 MRI 영상만으로 존재하며 266장으로 구성되어있습니다. <br>
 files
 * train/images - 학습 데이터세트(MRI 영상)
@@ -13,7 +14,7 @@ files
 * test/images - 테스트 데이터세트(MRI 영상)
 * sample_submission.csv - 제출을 위한 샘플 파일
 <br>
-Columns
+Columns <br>
 * Image_Label - 이미지 이름
 * EncodedPixels - Run-Length Encoding 된 라벨
 

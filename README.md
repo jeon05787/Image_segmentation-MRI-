@@ -15,7 +15,7 @@ files
 * test/images - 테스트 데이터세트(MRI 영상)
 * sample_submission.csv - 제출을 위한 샘플 파일
 <br>
-Columns 
+Columns
 * Image_Label - 이미지 이름
 * EncodedPixels - Run-Length Encoding 된 라벨
 
